@@ -2430,7 +2430,7 @@ blockquote {
   right: 0px;
   width: 110%;
   height: 110%;
-  background-image: url("http://uploads.webflow.com/5a85b2803b54f10001f56d34/5a85c4f0729049000182e1e1_banner-2.jpg");
+  background-image: url("../images/main-bg.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2450,8 +2450,8 @@ blockquote {
   height: 100%;
   background-image: -webkit-linear-gradient(45deg, var(--purple-shade-1), var(--purple-shade-2) 56%,var(--purple-shade-3));
   background-image: linear-gradient(45deg, var(--purple-shade-1), var(--purple-shade-2) 56%,var(--purple-shade-3));
-  opacity: 0.85;
-  filter: alpha(opacity=85);
+  opacity: 0.3;
+  filter: alpha(opacity=30);
 }
 
 .section {
