@@ -2193,9 +2193,9 @@ blockquote {
 }
 
 .banner.sub {
-  height: 500px;
+  height: 400px;
   background-color: #fff;
-  background-image: url("http://uploads.webflow.com/5a85b2803b54f10001f56d34/5a902a1a514876000115686f_sub-3.jpg");
+  background-image: url("../images/main-bg-3.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2498,8 +2498,8 @@ blockquote {
 .section.image {
   padding-top: 150px;
   padding-bottom: 150px;
-  background-image: -webkit-linear-gradient(45deg, var(--purple-shade-with-light-transparency-1), var(--purple-shade-with-light-transparency-2) 53%, var(--purple-shade-with-light-transparency-3)), url("http://uploads.webflow.com/5a85b2803b54f10001f56d34/5a8b0ef9522d5f00013310c9_pres-1%20(1).jpg");
-  background-image: linear-gradient(45deg, var(--purple-shade-with-light-transparency-1), var(--purple-shade-with-light-transparency-2) 53%, var(--purple-shade-with-light-transparency-3)), url("http://uploads.webflow.com/5a85b2803b54f10001f56d34/5a8b0ef9522d5f00013310c9_pres-1%20(1).jpg");
+  background-image: -webkit-linear-gradient(45deg, var(--purple-shade-with-light-transparency-1), var(--purple-shade-with-light-transparency-2) 53%, var(--purple-shade-with-light-transparency-3)), url("../images/main-bg-1.jpg");
+  background-image: linear-gradient(45deg, var(--purple-shade-with-light-transparency-1), var(--purple-shade-with-light-transparency-2) 53%, var(--purple-shade-with-light-transparency-3)), url("../images/main-bg-1.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -2686,7 +2686,7 @@ blockquote {
 }
 
 .heading.top-big {
-  font-size: 60px;
+  font-size: 7em;
   line-height: 50px;
 }
 
@@ -4162,8 +4162,8 @@ html.w-mod-js *[data-ix="project-overlay-first-app"] {
     margin-top: 0px;
   }
   .heading.top-big {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 5.5em;
+    line-height: 50px;
   }
   .photo-wrapper {
     margin-top: 30px;
@@ -4505,7 +4505,7 @@ html.w-mod-js *[data-ix="project-overlay-first-app"] {
   }
   .heading.top-big {
     display: inline-block;
-    font-size: 40px;
+    font-size: 5em;
     line-height: 40px;
   }
   .image-about._1 {
