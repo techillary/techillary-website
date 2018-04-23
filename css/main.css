@@ -2540,8 +2540,8 @@ blockquote {
   display: flex;
   width: 25%;
   height: 100%;
-  padding-right: 77px;
-  padding-left: 77px;
+  padding-right: 30px;
+  padding-left: 30px;
   float: left;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -2570,7 +2570,7 @@ blockquote {
 .services-title {
   margin-bottom: 15px;
   color: #fff;
-  font-size: 17px;
+  font-size: 1.4em;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
