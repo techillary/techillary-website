@@ -3077,8 +3077,14 @@ blockquote {
   height: 275px;
 }
 
+.project-image img {
+  object-fit: scale-down;
+  -o-object-fit: scale-down
+}
+
 .project-content {
   padding: 45px;
+  height: 255px;
 }
 
 .collection-list-wrapper {
@@ -3102,7 +3108,7 @@ blockquote {
 
 .project-percent {
   display: block;
-  width: 60%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -3189,18 +3195,18 @@ blockquote {
   width: 120px;
   height: 120px;
   margin-right: 25px;
-  background-image: url("http://uploads.webflow.com/5a85b2803b54f10001f56d34/5a8d77651df25e0001d649b0_team-3.jpg");
+  background-image: url("../images/team/hasan-ali.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .member-photo._2 {
-  background-image: url("http://uploads.webflow.com/5a85b2803b54f10001f56d34/5a8d77752d6ad400017298f9_team-1.jpg");
+  background-image: url("../images/team/nikhil-arora.jpg");
 }
 
 .member-photo._3 {
-  background-image: url("http://uploads.webflow.com/5a85b2803b54f10001f56d34/5a8d77c822b72d00015b50b7_team-2.jpg");
+  background-image: url("../images/team/saumya-tiwari.jpg");
 }
 
 .member-photo._4 {

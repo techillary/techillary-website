@@ -39,19 +39,24 @@ ul li:after {
 
 @media (max-width: 479px) {
   .services-content .services-body {
-    height: 125px;
     display: flex;
     align-items: center;
     justify-content: center
   }
 }
 
-@media (min-width: 480px) {
-  .services-content .services-body {
-    height: 125px;
-  }
+.services-content .services-body {
+  height: 9.5em;
 }
 
 .image-project-custom {
   width: 18em;
+}
+
+ul.services-ul {
+  margin: 2em 1em 0 1em;
+}
+
+.gray {
+  background-color: #f1f1f7;
 }
