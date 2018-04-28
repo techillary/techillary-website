@@ -23,11 +23,35 @@ ul li:after {
 }
 
 .service-image-container {
-  height: 87px;
-  position: relative;
+  height: 90px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center
 }
 
-.service-image-container img {
-  position: absolute;
-  bottom: 0px;
+.service-image-container .services-icon {
+  margin-bottom: 0
+}
+
+.content-white {
+  color: white;
+}
+
+@media (max-width: 479px) {
+  .services-content .services-body {
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+}
+
+@media (min-width: 480px) {
+  .services-content .services-body {
+    height: 125px;
+  }
+}
+
+.image-project-custom {
+  width: 18em;
 }

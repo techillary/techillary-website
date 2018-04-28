@@ -10,10 +10,10 @@
   --purple-shade-3: #8A2BE2;
   --purple-shade-4: #800080;
 
-  --purple-shade-with-transparency-1: rgba(221,160,221,0.5);
-  --purple-shade-with-transparency-2: rgba(255,0,255,0.5);
-  --purple-shade-with-transparency-3: rgba(138,43,226,0.5);
-  --purple-shade-with-transparency-4: rgba(128,0,128,0.5);
+  --purple-shade-with-transparency-1: rgba(221,160,221,0.2);
+  --purple-shade-with-transparency-2: rgba(255,0,255,0.2);
+  --purple-shade-with-transparency-3: rgba(138,43,226,0.2);
+  --purple-shade-with-transparency-4: rgba(128,0,128,0.2);
 
   --purple-shade-with-light-transparency-1: rgba(221,160,221,0.8);
   --purple-shade-with-light-transparency-2: rgba(255,0,255,0.8);
@@ -2569,6 +2569,7 @@ blockquote {
 
 .services-title {
   margin-bottom: 15px;
+  margin-top: 15px;
   color: #fff;
   font-size: 1.4em;
   font-weight: 500;
@@ -3073,6 +3074,7 @@ blockquote {
 .project-image {
   position: relative;
   overflow: hidden;
+  height: 275px;
 }
 
 .project-content {
