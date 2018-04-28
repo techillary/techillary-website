@@ -1075,7 +1075,7 @@
           </div>
           <div class="top-margin medium">
             <div class="form-block w-form">
-              <form id="email-form" name="email-form" data-name="Email Form">
+              <form id="email-form" name="email-form" data-name="Email Form" action="sendmail.php" method="POST">
                 <label for="name" class="field-label">Name:</label>
                 <input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name"
                   id="name" required="" />
@@ -1083,10 +1083,10 @@
                 <input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email"
                   placeholder="Enter your email" id="email" required="" />
                 <label for="Phone" class="field-label">Phone Number:</label>
-                <input type="text" class="text-field w-input" maxlength="256" name="Phone" data-name="Phone"
+                <input type="text" class="text-field w-input" maxlength="256" name="phone" data-name="Phone"
                   placeholder="Enter your phone" id="Phone" required="" />
                 <label for="Message" class="field-label">Message:</label>
-                <textarea id="Message" name="Message" placeholder="Enter your message" maxlength="5000" data-name="Message"
+                <textarea id="Message" name="message" placeholder="Enter your message" maxlength="5000" data-name="Message"
                   required="" class="text-field area w-input"></textarea>
                 <div class="top-margin">
                   <div class="align-center">
